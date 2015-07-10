@@ -153,6 +153,7 @@ public class Anagrams extends JFrame {
         gridBagConstraints.insets = new java.awt.Insets(0, 0, 20, 6);
         mainPanel.add(guessLabel, gridBagConstraints);
 
+        guessedWord.setBackground(new java.awt.Color(204, 204, 255));
         guessedWord.setColumns(20);
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridwidth = java.awt.GridBagConstraints.REMAINDER;
